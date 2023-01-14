@@ -35,6 +35,11 @@
     <property name="go.watchers.conflict.with.on.save.actions.check.performed" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\golang\src\wechat\wx_util" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="TestGetWxSign in wechat/wx_util/wx_share" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="wx_util" />

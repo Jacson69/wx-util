@@ -65,6 +65,7 @@ func (cache *TicketCache) GetTicket(appid, token string) (string, error) {
 
 // 获取小程序全局唯一后台接口调用凭据（ticket）。
 // 开发者需要进行妥善保存。
+//
 func getJsapiTicket(token string) (WxTicketRet, error) {
 	wx_api_url := "https://api.weixin.qq.com/cgi-bin/ticket/getticket"
 	wx_api_url = fmt.Sprintf("%s?access_token=%s&type=jsapi",
